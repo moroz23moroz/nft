@@ -124,9 +124,75 @@
 
 }
 
+.fans {
+    &__inner {
+        padding-top: 45px;
+        padding-bottom: 95px;
+    }
+
+    &__title {
+        padding-bottom: 45px;
+    }
+
+    &__text-title {
+        padding-bottom: 15px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__card {
+        border-radius: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    &__card-item {
+        position: relative;
+        margin-bottom: 45px;
+    }
+
+    &__about {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.genre {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px 15px;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+.avatar {
+    position: absolute;
+    bottom: -80px;
+    left: -30px;
+}
+
+.link {
+    position: absolute;
+    bottom: -80px;
+    right: -30px;
+}
+
 .questions {
     &__inner {
         padding: 65px 0;
+    }
+
+    &__info {
+        padding-top: 40px;
     }
 }
 
